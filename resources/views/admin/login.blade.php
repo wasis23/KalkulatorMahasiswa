@@ -26,7 +26,7 @@
                         <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400 text-sm">
                             📧
                         </span>
-                        <input type="email" name="email" id="email" value="{{ old('email', 'admin@kalkulator.com') }}" required autofocus
+                        <input type="email" name="email" id="email" value="{{ old('email') }}" required autofocus
                             class="block w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 bg-white text-slate-900 placeholder-slate-400 font-medium text-sm transition-all outline-none"
                             placeholder="nama@kalkulator.com">
                     </div>
@@ -41,7 +41,7 @@
                         <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400 text-sm">
                             🔑
                         </span>
-                        <input type="password" name="password" id="password" value="admin123" required
+                        <input type="password" name="password" id="password" required
                             class="block w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 bg-white text-slate-900 placeholder-slate-400 font-medium text-sm transition-all outline-none"
                             placeholder="Masukkan password Anda">
                     </div>
@@ -69,12 +69,6 @@
                     &larr; Kembali ke Kalkulator Publik
                 </a>
             </div>
-        </div>
-
-        <!-- Info Credentials Box -->
-        <div class="mt-6 p-4 rounded-2xl bg-amber-50 border border-amber-100 text-amber-800 text-xs font-medium">
-            <span class="font-bold block mb-1">💡 Petunjuk Demo Login:</span>
-            <span>Gunakan email <strong class="underline">admin@kalkulator.com</strong> dan password <strong class="underline">admin123</strong> untuk masuk ke panel kendali.</span>
         </div>
     </div>
 </div>
